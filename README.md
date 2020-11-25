@@ -3,10 +3,10 @@
 ## Database Settings
 **USE NEO4J VERSION 3.x.x**
 
-Install neo4j locally with 
-username: neo4j
-password: password
-port: 7474
+Install neo4j locally with
+- username: neo4j
+- password: password
+- port: 7474
 
 OR
 
