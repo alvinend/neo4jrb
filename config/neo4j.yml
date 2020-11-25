@@ -1,0 +1,5 @@
+development:
+  type: http
+  url: <%= ENV.fetch("DB_URL") { "http://neo4j:password@localhost:7474" } %>
+
+# http://neo4j:password@db:7474
