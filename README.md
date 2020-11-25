@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Database Settings
+**USE NEO4J VERSION 3.x.x**
 
-Things you may want to cover:
+Install neo4j locally with 
+username: neo4j
+password: password
+port: 7474
 
-* Ruby version
+OR
 
-* System dependencies
+make .env and set custom DB_URL (Look config/neo4j.yml)
 
-* Configuration
 
-* Database creation
+## Command to Start !
 
-* Database initialization
+1. yarn
+2. bundle install
+3. rails s
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy !
